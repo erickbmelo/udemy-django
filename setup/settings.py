@@ -82,9 +82,9 @@ DATABASES = {
         'OPTIONS':{
             'options': '-c search_path=django' # esquema 'django'
         },
-        'HOST': 'localhost',
+        'HOST': '172.18.101.137',
         'PORT': '5432',
-        'NAME': 'udemy-erick',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
     }
